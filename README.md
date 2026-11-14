@@ -21,7 +21,7 @@ Once configurations are done let's start it up.
 The Grafana Dashboard is now accessible via: `http://<Host IP Address>:3000` for example http://192.168.10.1:3000
 
 	username - admin
-	password - foobar (Password is stored in the `/grafana/config.monitoring` env file)
+	password - value of the `GF_ADMIN_PASSWORD` environment variable (see `.env.example`)
 
 View running services:
 

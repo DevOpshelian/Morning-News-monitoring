@@ -1,0 +1,10 @@
+aws_access_key = "CHANGE_ME"   # or export TF_VAR_aws_access_key
+aws_secret_key = "CHANGE_ME"   # or export TF_VAR_aws_secret_key
+aws_region     = "to_define"
+aws_key_name   = "to_define"
+aws_public_key = "CHANGE_ME"   # or export TF_VAR_aws_public_key
+# aws_allocation_id = 
+aws_ami                      = "ami-0506d6d51f1916a96"
+aws_instance_type            = "t3.micro"
+aws_monitoring_instance_name = "monitoring"
+aws_security_group_name      = "monitoring"
